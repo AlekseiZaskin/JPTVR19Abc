@@ -5,10 +5,29 @@
  */
 package jptvr19abc;
 
+import java.util.Scanner;
+
 /**
  *
  * @author pupil
  */
 class App {
-    
+    public void run(){
+        System.out.println("--- Abc ---");
+        char abc[] = new char[26];
+        String str = "abc";
+        for (int i = 0; i < 26; i++) {
+        int index = str.indexOf(abc[i]);
+        char notAbc[] = new char[33];
+        if (index == -1) {
+        }
+        else {
+            System.out.println("Текст содержит все буквы алфавита");
+        }
+        if (index == -1) {
+        }
+        
+        }
+        
+    }
 }
